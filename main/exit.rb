@@ -6,9 +6,9 @@ class Exit
 		#プログラムを終了するボタンの生成
 		button = Gtk::Button.new("  Exit  ")
 		button.signal_connect("clicked") do
-			Gtk.main_quit
-			
-			true
+			button.signal_connect("clicked") do
+				Gtk.main_quit
+			end
 		end
 		
 		#フォントと文字サイズを指定

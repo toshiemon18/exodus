@@ -46,9 +46,6 @@ escape = exit.exit_button
 
 #表示結果についての注意を示すラベル
 cauntion = Gtk::Label.new("  ※処理結果は出席番号で表示", use_underline = nil)
-#お飾りのラベル
-dev = Gtk::Label.new("Developed by @toshiemon18", use_underline = nil)
-dev.style = style
 
 #水平ボックスを作成(終了ボタンとcauntionを格納)
 h = Gtk::HBox.new(true, 0)

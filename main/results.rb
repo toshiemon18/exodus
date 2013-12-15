@@ -2,8 +2,8 @@
 #処理結果を表示するウィンドウを作成する
 $:.unshift File.dirname(__FILE__)
 require 'gtk2'
-require './sortman.rb'
-require './exit.rb'
+require './main/sortman.rb'
+require './main/exit.rb'
 
 
 class Results
