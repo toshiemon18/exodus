@@ -58,8 +58,6 @@ v = Gtk::VBox.new(false, 0)
 #生成した水平ボックスにボタンとラベルを格納
 h.pack_end(escape, false, false, 30)
 h.pack_end(cauntion, false, false, 60)
-#beginningを格納
-h2.pack_start(dev, false, false,20)
 
 #各ウィジェットを垂直ボックスに格納
 v.pack_end(h2, false, false, 5)
